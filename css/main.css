@@ -1,20 +1,52 @@
 @import url("fonts.css");
 
-
-
 html, body {
 	width: 100%;
+	height: 100%;
     margin: 0vw;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: hidden;
 	display: flex;
 	flex-direction: column;
 }
 
+h1 {
+	margin: 0vw;
+	font-size: 4vw;
+	font-family: alegreya, serif;
+}
+
+h2 {
+	margin: 0vw;
+	font-size: 1.4vw;
+	font-family: alegreya, serif;
+}
+
+h3 {
+	margin: 0vw;
+	font-size: 1vw;
+	font-family: open-sans-thin, sans-serif;
+}
+
+p {
+	margin: 0vw;
+	font-size: 1vw;
+	font-family: open-sans, sans-serif;
+}
+
 div.header {
 	background-color: #6EB5D5;
-	width: 100%;
+	color: #FFFFFF;
+	width: 96%;
 	height: 8vw;
+	margin: 0vw;
+	padding: 1vw 2% 0vw;
+	display: flex;
+}
+
+div.header_third {
+	width: 33%;
+	height: 4vw;
 	margin: 0vw;
 }
 
@@ -27,16 +59,32 @@ div.content {
 
 div.description {
 	background-color: #FEFEFE;
-	width: 75%;
+	width: 62%;
 	height: 100%;
 	margin: 0vw;
+	padding: 2%;
 }
 
 div.external_links {
-	background-color: #7BA0B8;
-	width: 25%;
+	background-color: #8BB8C8;
+	width: 33%;
 	height: 100%;
 	margin: 0vw;
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
+}
+
+div.button {
+	width: 92%;
+	height: 6.25vw;
+	margin: 0vw;
+	padding: 2% 4%;
+	border-top-style: solid;
+	border-top-width: 0.1vw;
+	border-top-color: #6B98B8;
+	transition: all 0.2s;
+}
+
+div.button:hover {
+	background-color: #A8C8D8;
 }
