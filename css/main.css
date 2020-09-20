@@ -2,12 +2,13 @@
 
 html, body {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
     margin: 0vw;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y: auto;
 	display: flex;
 	flex-direction: column;
+	align-items: stretch;
 }
 
 h1 {
@@ -18,36 +19,36 @@ h1 {
 
 h2 {
 	margin: 0vw;
-	font-size: 1.4vw;
+	font-size: 1.25vw;
 	font-family: alegreya, serif;
 }
 
 h3 {
 	margin: 0vw;
-	font-size: 1vw;
+	font-size: 0.8vw;
 	font-family: open-sans-thin, sans-serif;
 }
 
 p {
 	margin: 0vw;
-	font-size: 1vw;
+	font-size: 0.9vw;
 	font-family: open-sans, sans-serif;
 }
 
 div.header {
 	background-color: #6EB5D5;
 	color: #FFFFFF;
-	width: 96%;
-	height: 8vw;
+	width: 100%;
+	height: 7vw;
 	margin: 0vw;
-	padding: 1vw 2% 0vw;
 	display: flex;
 }
 
 div.header_third {
-	width: 33%;
-	height: 4vw;
+	width: 30%;
+	height: 7vw;
 	margin: 0vw;
+	padding: 1vw 1.5%;
 }
 
 div.content {
@@ -59,10 +60,16 @@ div.content {
 
 div.description {
 	background-color: #FEFEFE;
-	width: 62%;
+	width: 63%;
 	height: 100%;
 	margin: 0vw;
-	padding: 2%;
+	padding: 0% 2%;
+	line-height: 1.5vw;
+}
+
+div.textbox {
+	width: 100%;
+	margin: 1.5vw 0vw 0vw;
 }
 
 div.external_links {
@@ -76,9 +83,9 @@ div.external_links {
 
 div.button {
 	width: 92%;
-	height: 6.25vw;
+	height: 3.8vw;
 	margin: 0vw;
-	padding: 2% 4%;
+	padding: 1vw 4%;
 	border-top-style: solid;
 	border-top-width: 0.1vw;
 	border-top-color: #6B98B8;
