@@ -1,0 +1,42 @@
+@import url("fonts.css");
+
+
+
+html, body {
+	width: 100%;
+    margin: 0vw;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+div.header {
+	background-color: #6EB5D5;
+	width: 100%;
+	margin: 0vw;
+}
+
+div.content {
+	width: 100%;
+	margin: 0vw;
+	display: flex;
+}
+
+div.padding {
+	background-color: #7BA0B8;
+	width: 15%;
+	margin: 0vw;
+}
+
+div.description {
+	background-color: #FEFEFE;
+	width: 55%;
+	margin: 0vw;
+}
+
+div.external_links {
+	background-color: #7BA0B8;
+	width: 30%;
+	margin: 0vw;
+	display: inline-flex;
+	flex-direction: column;
+}

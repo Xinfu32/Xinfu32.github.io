@@ -1,0 +1,14 @@
+@font-face {
+	font-family: alegreya;
+	src: url("/fonts/Alegreya-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: open-sans;
+	src: url("/fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: open-sans-thin;
+	src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+}
