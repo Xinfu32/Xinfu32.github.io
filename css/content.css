@@ -1,0 +1,54 @@
+@import url("fonts.css");
+
+div.text {
+	background-color: #DDDDDD;
+	width: auto;
+	height: 12em;
+	margin: 1em 1em 1em;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	color: #666666;
+}
+
+div.text p {
+	margin: 0.25em 0em;
+}
+
+div.entry {
+	width: auto;
+	height: 7em;
+	margin: 1em;
+	display: flex;
+}
+
+div.item {
+	background-color: #BBBBBB;
+	height: 100%;
+	flex: 0 0 25em;
+	margin: 0em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+	transition: 0.2s;
+}
+
+div.link:hover {
+	cursor: pointer;
+	background-color: #999999;
+}
+
+div.description {
+	background-color: #DDDDDD;
+	height: auto;
+	flex: 1 0 40em;
+	margin: 0em;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	color: #666666;
+}

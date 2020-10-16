@@ -4,76 +4,63 @@
 <title>Frederick Qiu | Portfolio</title>
 <link rel="icon" href="images/icon.png">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/content.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery.animate-colors-min.js"></script>
+<script src="js/panel.js"></script>
 <script src="js/link.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$(".panel").click(openPanel);
+		$("#x").click(closePanel);
+	});
+</script>
+
 </head>
 
 <body>
 
-<div class="header">
-	<div class="header_third"><h1>Frederick Qiu</h1></div><div class="header_third"><h1>Portfolio</h1></div><div class="header_third"></div>
+<div id="header">
+	<div class="header-left">
+		<h1>Frederick Qiu</h1>
+	</div>
+	<div class="header-right">
+		<h2>Prospective software engineer studying at Princeton University.</h2>
+	</div>
 </div>
 
-<div class="content">
+<div class="divider"></div>
+
+<div id="content">
+
+	<div class="border"></div>
 	
-	<div class="external_links">
-		
-		<div class="button" onclick="openInNewTab('QiuFrederick.pdf')">
-			<h2>Resume</h2>
-			<h3>A brief summary of my more significant skills and accomplishments.</h3>
+	<div id="about" class="panel panel-hover">
+		<div class="panel-content">
+			<h3>About</h3>
 		</div>
-		
-		<div class="button" onclick="openInNewTab('Transcript.pdf')">
-			<h2>Transcript</h2>
-			<h3>A complete overview of my coursework at Princeton University.</h3>
-		</div>
-		
-		<div class="button" onclick="openInNewTab('https://github.com/TeamMonumenta/monumenta-plugins-public')">
-			<h2>Project - Monumenta Plugins</h2>
-			<h3>A GitHub repository for Java plugins for a Minecraft server I am a lead developer for, contributing 20,000+ lines of code over the past 2 years.</h3>
-		</div>
-		
-		<div class="button" onclick="openInNewTab('https://nmrqualytics.com/')">
-			<h2>Project - NMR Qualytics Website</h2>
-			<h3>A website I designed for Qualytics LLC, equipped with a secure login system and database where clients can submit requests for NMR lab tests.</h3>
-		</div>
-		
-		<div class="button" onclick="openInNewTab('https://www.youtube.com/channel/UCvDFylkxaFLe9jozpwW_kwg/')">
-			<h2>Project - Minecraft Noteblocks Music</h2>
-			<h3>A YouTube channel I started with a friend where we create electronic music covers in a constrained medium.</h3>
-		</div>
-		
-		<div class="button" onclick="openInNewTab('NMRAnalysisTetrahedronLetters.pdf')">
-			<h2>Publication - NMR Analysis, Tetrahedron Letters</h2>
-			<h3>A paper I am credited as third author in. I conducted NMR structural analysis on samples of the chemical compound that is the subject of the paper.</h3>
-		</div>
-		
-		<div class="button" onclick="openInNewTab('StatisticalAnalysisMDPISustainability.pdf')">
-			<h2>Publication - Statistical Analysis, MDPI Sustainability</h2>
-			<h3>Independent research I conducted under a professor at Villanova. I am credited as first author.</h3>
-		</div>
-		
 	</div>
 	
-	<div class="description">
-		<div class="textbox">
-			<p>Hi, I'm Frederick Qiu. I'm currently a sophomore majoring in Computer Science at Princeton University, with plans to go to graduate school, then either continue in academia, or possibly pivot towards a job in software engineering. I haven't fully decided yet, so I'm looking to keep my options open and pursue opportunities in all areas.</p>
-		</div>
-		<div class="textbox">
-			<p>I've taken many computer science courses, and am currently taking two graduate courses, one on graph data structures and algorithms, and another on randomized algorithms and optimization algorithms. Next semester, I plan to take courses in machine learning and cryptography. In terms of my math background, I took a heavily proofs based linear algebra course last semester, and am currently taking a physics course in classical mechanics (though I've never taken multi-variable calculus or differential equations, both are heavily used in this course).</p>
-		</div>
-		<div class="textbox">
-			<p>As for programming, I have a lot of experience in Java, with moderate experience in C, Python, JavaScript, PHP, MySQL, HTML, CSS, and R. Aside from Java and C, I've picked up everything through judicious Googling and abusing StackOverflow, so I could probably learn and use any language in a pinch, though I heavily prefer languages with strict typing like Java.</p>
-		</div>
-		<div class="textbox">
-			<p>The activity I'm most involved with is tutoring, of all kinds - I'm a teaching assistant for some of the intro CS classes, holding office hours and help sessions for students with questions about the assignments. I also do tutoring in a variety of topics for high school students through Princeton Tutoring, and I volunteered as an SAT tutor for underprivileged students last year.</p>
-		</div>
-		<div class="textbox">
-			<p>Aside from that, I'm very involved in a volunteer project developing a Minecraft server called Monumenta. I'm the balance lead over there (which is basically doing a lot of math to make sure there's a well-defined difficulty curve), and I'm heavily involved with developing the plugins that we use to customize the game. The project has been a great chance to apply what I'm learning to a "real life" situation (if you can call a block game real life): my favorite example is when I used a trie to make parsing custom items extremely efficient. We have a few hundred active players, and the server maintenance costs are covered by donations.</p>
-		</div>
-		<div class="textbox">
-			<p>In my free time, I create covers of songs using "noteblocks" in Minecraft - it's a bit like a puzzle to try and make short pulses of sound from a limited selection of noises and pitches fit together - I recently started a YouTube channel with a friend showcasing these creations. Aside from that, I like to play video games and go on morning runs.</p>
+	<div class="spacer"></div>
+	
+	<div id="projects" class="panel panel-hover">
+		<div class="panel-content">
+			<h3>Projects</h3>
 		</div>
 	</div>
+	
+	<div class="spacer"></div>
+	
+	<div id="experience" class="panel panel-hover">
+		<div class="panel-content">
+			<h3>Experience</h3>
+		</div>
+	</div>
+	
+	<div class="border"></div>
+	
+	<div id="box"><div id="x"><img src="images/x.png" alt="x" width=32 height=32></div></div>
 	
 </div>
 
