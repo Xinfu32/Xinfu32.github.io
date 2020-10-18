@@ -5,7 +5,7 @@ var panelOpen = "";
 var panelContentHidden = {
 	about: `
 			<div class="text">
-				<p>Hi! I'm Frederick Qiu, a sophomore studying computer science in the college of arts and sciences at Princeton University. I currently have plans to go to graduate school, but I'm unsure yet if I want to continue in academia or work as a software engineer, so I'm keeping my options open and trying to get a taste for a wide range of different career paths.</p>
+				<p>Hi! I'm Frederick Qiu, a sophomore studying computer science in the College of Arts and Sciences at Princeton University. Currently, I intend to graduate school, but I also want to explore both academia and software engineering and get a taste of a wide range of different career paths.</p>
 				<p>I am very experienced with Java, and also have a considerable amount of experience in C, Python, web development (HTML/CSS/JS, PHP, MySQL), and R. The only languages I've learned "formally" are Java and C, with the rest learned through judicious use of Google and StackOverflow, so I think I could pick up any language in a pinch.</p>
 				<p>As for my extracurricular activities, I love teaching - I do paid tutoring, volunteer test prep, and am also a TA for the introductory CS courses. In my free time, I like to run, and I also do a lot of plugin coding for Minecraft, as well as making electronic music (in a sense). More details in the "projects" section of this webpage.</p>
 				
@@ -15,7 +15,7 @@ var panelContentHidden = {
 					<h4>Course Work</h4>
 				</div>
 				<div class="description">
-					<p>I'm taking a wide variety of courses, with both practical programming courses as well as theory heavy ones like the graduate algorithms courses I'm taking this semester. Additionally, I have a strong mathematical background, having taken a proofs based linear algebra class and classical mechanics (which uses multi-variable calculus and other mathematical formulations like Lagrangians). Linked is my unofficial transcript.</p>
+					<p>I'm taking a wide variety of courses, with both practical programming courses as well as theory heavy ones like the graduate algorithms classes I'm taking this semester. Additionally, I have a strong mathematical background, having taken a proofs based linear algebra class and classical mechanics (which uses multi-variable calculus and other mathematical formulations like Lagrangians). Linked is my unofficial transcript.</p>
 				</div>
 			</div>
 			<div class="entry">

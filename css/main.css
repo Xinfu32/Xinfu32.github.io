@@ -23,7 +23,7 @@ h1 {
 
 h2 {
 	margin: 0em;
-	font-size: 1.25em;
+	font-size: 1.4em;
 	font-family: alegreya, serif;
 }
 
@@ -64,6 +64,7 @@ div.header-left {
 div.header-right {
 	height: auto;
 	flex: 1 0 38em;
+	padding-bottom: 0.84em;
 	align-self: flex-end;
 }
 
